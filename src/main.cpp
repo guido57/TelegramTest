@@ -4,6 +4,12 @@
 #include "credentials.h"
 
 // Wifi network station credentials
+/* Create a file credentials.h and add:
+#include <Arduino.h>
+String WIFI_SSID = "the SSID of your WIFI";
+String WIFI_PASSWORD = "the password of your WIFI";
+
+*/
 extern String WIFI_SSID; 
 extern String WIFI_PASSWORD; 
 
